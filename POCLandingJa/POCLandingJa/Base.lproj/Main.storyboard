@@ -1,24 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LHd-HL-KLK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Odo-id-4Fp">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YSd-UM-WSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="LHd-HL-KLK" sceneMemberID="viewController">
+                    <size key="freeformSize" width="414" height="700"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tqE-0n-1cD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="93k-WM-TRf"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-749" y="90"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="POCLandingJa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZY-AF-8fX">
+                                <rect key="frame" x="0.0" y="88" width="414" height="612"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5OZ-dZ-vXS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="612"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="leading" secondItem="Gef-8a-Jtq" secondAttribute="leading" id="Dkl-1w-cQ9"/>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="bottom" secondItem="Gef-8a-Jtq" secondAttribute="bottom" id="KMR-Bq-hGp"/>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="height" secondItem="7HM-XJ-hGb" secondAttribute="height" priority="200" id="NZ7-cX-ETU"/>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="top" secondItem="Gef-8a-Jtq" secondAttribute="top" id="X46-wF-LXU"/>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="trailing" secondItem="Gef-8a-Jtq" secondAttribute="trailing" id="gMl-88-oaJ"/>
+                                    <constraint firstItem="5OZ-dZ-vXS" firstAttribute="width" secondItem="1ZY-AF-8fX" secondAttribute="width" id="xCC-Qj-bV7"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Gef-8a-Jtq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7HM-XJ-hGb"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1ZY-AF-8fX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D7E-Xr-gGe"/>
+                            <constraint firstItem="1ZY-AF-8fX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DQx-Ib-QUh"/>
+                            <constraint firstItem="1ZY-AF-8fX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="blz-yZ-yRw"/>
+                            <constraint firstItem="1ZY-AF-8fX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="z0G-Xp-gxb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DD5-d3-l81"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="700"/>
+                    <connections>
+                        <outlet property="stackView" destination="5OZ-dZ-vXS" id="CwX-8L-jgG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="90"/>
         </scene>
     </scenes>
 </document>

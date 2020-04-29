@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public struct NationalResCellViewModel {
+  let title: String
+  let imagePath: String
+}

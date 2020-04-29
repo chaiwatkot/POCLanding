@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public struct CategoryResCellViewModel {
+  let title: String
+  let imagePath: String
+}

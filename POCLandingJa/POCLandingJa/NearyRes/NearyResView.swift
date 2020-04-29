@@ -9,5 +9,5 @@
 import UIKit
 
 class NearyResView: UIView {
-  
+  public var cellModel: [NearyResCellViewModel] = []
 }

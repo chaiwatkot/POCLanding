@@ -9,5 +9,5 @@
 import UIKit
 
 class NationalResView: UIView {
-  
+  public var cellModel: [NationalResCellViewModel] = []
 }

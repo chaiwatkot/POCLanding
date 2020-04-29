@@ -6,4 +6,14 @@
 //  Copyright © 2563 CHAIWAT CHANTHASEN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+public struct SuggestionResCellViewModel {
+  let title: String
+  let imagePath: String
+}
+
+class SuggestionResCell: UICollectionViewCell, ReusableView {
+  
+  
+}

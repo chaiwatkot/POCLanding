@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public struct NearyResCellViewModel {
+  let title: String
+  let imagePath: String
+}

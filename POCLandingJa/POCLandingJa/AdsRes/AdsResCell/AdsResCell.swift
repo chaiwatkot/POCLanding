@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public struct AdsResCellViewModel {
+  let title: String
+  let imagePath: String
+}

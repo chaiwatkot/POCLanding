@@ -9,5 +9,5 @@
 import UIKit
 
 class CategoryResView: UIView {
-  
+  public var cellModel: [CategoryResCellViewModel] = []
 }

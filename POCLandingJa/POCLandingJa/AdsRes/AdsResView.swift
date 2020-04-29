@@ -9,5 +9,5 @@
 import UIKit
 
 class AdsResView: UIView {
-  
+  public var cellModel: [AdsResCellViewModel] = []
 }

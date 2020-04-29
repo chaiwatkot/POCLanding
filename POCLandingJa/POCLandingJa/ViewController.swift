@@ -9,31 +9,52 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
+  @IBOutlet private weak var stackView: UIStackView!
+  
+  var listView: [UIView] = []
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    testAddSubView()
+    setupSectionView()
   }
 
+  private func setupSectionView() {
+    let datas = LandingModel.mockData().sorted { (cell1, cell2) -> Bool in
+      cell1.sortSquence < cell2.sortSquence
+    }
+    for data in datas {
+      guard let sectionView = checkTypeView(typeView: data.typeSectionList) else { return }
+      listView.append(sectionView)
+    }
+    
+    setupStackView()
+  }
   
-  func testAddSubView() {
-    let view1 = UIView()
-    view1.frame.size = CGSize(width: view.frame.width, height: 300)
-    view1.backgroundColor = UIColor.green
-    
-    let view2 = UIView()
-    view2.frame.size = CGSize(width: view.frame.width, height: 300)
-    view2.backgroundColor = UIColor.blue
-
-    let stackView = UIStackView(arrangedSubviews: [view1, view2])
-    stackView.contentMode = .scaleAspectFit
-    stackView.spacing = 50
-    stackView.axis = .vertical
-    stackView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
-    stackView.backgroundColor = UIColor.red
-    
-    view.addSubview(stackView)
-    stackView.sizeToFit()
+  private func setupStackView() {
+    for view in listView {
+      stackView.addArrangedSubview(view)
+    }
+  }
+  
+  private func checkTypeView(typeView: TypeSectionList) -> UIView? {
+    if let suggestModels = typeView.suggestResModels {
+      let suggestionResView = SuggestionResView.loadNib()
+      return suggestionResView
+    } else if let adsModels = typeView.adsResModels {
+      let adsResView = AdsResView.loadNib()
+      return adsResView
+    } else if let nearyModels = typeView.nearyResModels {
+      let nearyResView = NearyResView.loadNib()
+      return nearyResView
+    } else if let categoryModels = typeView.categoryResModels {
+      let categoryResView = CategoryResView.loadNib()
+      return categoryResView
+    } else if let nationalModels = typeView.nationalResModels {
+      let nationalResView = NationalResView.loadNib()
+      return nationalResView
+    }
+    return nil
   }
 }
 
