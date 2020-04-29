@@ -8,6 +8,6 @@
 
 import UIKit
 
-class SuggestionResViewController: UIViewController {
+class SuggestionResView: UIView {
   
 }

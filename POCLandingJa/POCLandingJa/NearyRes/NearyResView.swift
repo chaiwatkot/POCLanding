@@ -6,4 +6,8 @@
 //  Copyright © 2563 CHAIWAT CHANTHASEN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class NearyResView: UIView {
+  
+}

@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A161030D245922E7009747C7 /* SuggestionResView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A161030C245922E7009747C7 /* SuggestionResView.xib */; };
+		A161030F2459230F009747C7 /* AdsResView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A161030E2459230F009747C7 /* AdsResView.xib */; };
+		A161031124592322009747C7 /* NearyResView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A161031024592322009747C7 /* NearyResView.xib */; };
+		A161031324592331009747C7 /* CategoryResView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A161031224592331009747C7 /* CategoryResView.xib */; };
+		A161031524592342009747C7 /* NationalResView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A161031424592342009747C7 /* NationalResView.xib */; };
 		A1DF54052458392600171336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF54042458392600171336 /* AppDelegate.swift */; };
 		A1DF54072458392600171336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF54062458392600171336 /* SceneDelegate.swift */; };
 		A1DF54092458392600171336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF54082458392600171336 /* ViewController.swift */; };
 		A1DF540C2458392600171336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DF540A2458392600171336 /* Main.storyboard */; };
 		A1DF540E2458392800171336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DF540D2458392800171336 /* Assets.xcassets */; };
 		A1DF54112458392800171336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DF540F2458392800171336 /* LaunchScreen.storyboard */; };
+		A1DF542524583B6900171336 /* SuggestionResView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF542424583B6900171336 /* SuggestionResView.swift */; };
+		A1DF542724583B7F00171336 /* SuggestionResCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DF542624583B7F00171336 /* SuggestionResCell.xib */; };
+		A1DF542924583B8C00171336 /* SuggestionResCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF542824583B8C00171336 /* SuggestionResCell.swift */; };
+		A1DF542B24583E4900171336 /* AdsResView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF542A24583E4900171336 /* AdsResView.swift */; };
+		A1DF542D24583E5900171336 /* AdsResCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF542C24583E5900171336 /* AdsResCell.swift */; };
+		A1DF542F24583E6B00171336 /* AdsResCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DF542E24583E6B00171336 /* AdsResCell.xib */; };
+		A1DF543124583E8000171336 /* NearyResView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543024583E8000171336 /* NearyResView.swift */; };
+		A1DF543324583E8E00171336 /* NearyResCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543224583E8E00171336 /* NearyResCell.swift */; };
+		A1DF543524583E9A00171336 /* NearyResCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DF543424583E9A00171336 /* NearyResCell.xib */; };
+		A1DF543724583EBD00171336 /* CategoryResView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543624583EBD00171336 /* CategoryResView.swift */; };
+		A1DF543924583ECF00171336 /* CategoryResCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543824583ECF00171336 /* CategoryResCell.swift */; };
+		A1DF543B24583ED800171336 /* CategoryResCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DF543A24583ED800171336 /* CategoryResCell.xib */; };
+		A1DF543D24583EE500171336 /* NationalResView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543C24583EE500171336 /* NationalResView.swift */; };
+		A1DF543F24583EF600171336 /* NationalResCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF543E24583EF600171336 /* NationalResCell.swift */; };
+		A1DF544124583EFE00171336 /* NationalResCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DF544024583EFE00171336 /* NationalResCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A161030C245922E7009747C7 /* SuggestionResView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionResView.xib; sourceTree = "<group>"; };
+		A161030E2459230F009747C7 /* AdsResView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsResView.xib; sourceTree = "<group>"; };
+		A161031024592322009747C7 /* NearyResView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearyResView.xib; sourceTree = "<group>"; };
+		A161031224592331009747C7 /* CategoryResView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryResView.xib; sourceTree = "<group>"; };
+		A161031424592342009747C7 /* NationalResView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NationalResView.xib; sourceTree = "<group>"; };
 		A1DF54012458392600171336 /* POCLandingJa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCLandingJa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DF54042458392600171336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1DF54062458392600171336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,21 @@
 		A1DF540D2458392800171336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1DF54102458392800171336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1DF54122458392800171336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DF542424583B6900171336 /* SuggestionResView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionResView.swift; sourceTree = "<group>"; };
+		A1DF542624583B7F00171336 /* SuggestionResCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionResCell.xib; sourceTree = "<group>"; };
+		A1DF542824583B8C00171336 /* SuggestionResCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionResCell.swift; sourceTree = "<group>"; };
+		A1DF542A24583E4900171336 /* AdsResView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsResView.swift; sourceTree = "<group>"; };
+		A1DF542C24583E5900171336 /* AdsResCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsResCell.swift; sourceTree = "<group>"; };
+		A1DF542E24583E6B00171336 /* AdsResCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsResCell.xib; sourceTree = "<group>"; };
+		A1DF543024583E8000171336 /* NearyResView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearyResView.swift; sourceTree = "<group>"; };
+		A1DF543224583E8E00171336 /* NearyResCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearyResCell.swift; sourceTree = "<group>"; };
+		A1DF543424583E9A00171336 /* NearyResCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearyResCell.xib; sourceTree = "<group>"; };
+		A1DF543624583EBD00171336 /* CategoryResView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryResView.swift; sourceTree = "<group>"; };
+		A1DF543824583ECF00171336 /* CategoryResCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryResCell.swift; sourceTree = "<group>"; };
+		A1DF543A24583ED800171336 /* CategoryResCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryResCell.xib; sourceTree = "<group>"; };
+		A1DF543C24583EE500171336 /* NationalResView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalResView.swift; sourceTree = "<group>"; };
+		A1DF543E24583EF600171336 /* NationalResCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalResCell.swift; sourceTree = "<group>"; };
+		A1DF544024583EFE00171336 /* NationalResCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NationalResCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,11 @@
 		A1DF54032458392600171336 /* POCLandingJa */ = {
 			isa = PBXGroup;
 			children = (
+				A1DF541A245839BC00171336 /* SuggestionRes */,
+				A1DF541B245839CB00171336 /* AdsRes */,
+				A1DF541C245839D900171336 /* NearyRes */,
+				A1DF541D24583A5900171336 /* CategoryRes */,
+				A1DF541E24583AA600171336 /* NationalRes */,
 				A1DF54042458392600171336 /* AppDelegate.swift */,
 				A1DF54062458392600171336 /* SceneDelegate.swift */,
 				A1DF54082458392600171336 /* ViewController.swift */,
@@ -65,6 +110,101 @@
 				A1DF54122458392800171336 /* Info.plist */,
 			);
 			path = POCLandingJa;
+			sourceTree = "<group>";
+		};
+		A1DF541A245839BC00171336 /* SuggestionRes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF542424583B6900171336 /* SuggestionResView.swift */,
+				A161030C245922E7009747C7 /* SuggestionResView.xib */,
+				A1DF541F24583AD600171336 /* SuggestionResCell */,
+			);
+			path = SuggestionRes;
+			sourceTree = "<group>";
+		};
+		A1DF541B245839CB00171336 /* AdsRes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF542A24583E4900171336 /* AdsResView.swift */,
+				A161030E2459230F009747C7 /* AdsResView.xib */,
+				A1DF542024583AE200171336 /* AdsResCell */,
+			);
+			path = AdsRes;
+			sourceTree = "<group>";
+		};
+		A1DF541C245839D900171336 /* NearyRes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543024583E8000171336 /* NearyResView.swift */,
+				A161031024592322009747C7 /* NearyResView.xib */,
+				A1DF542124583AF100171336 /* NearyResCell */,
+			);
+			path = NearyRes;
+			sourceTree = "<group>";
+		};
+		A1DF541D24583A5900171336 /* CategoryRes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543624583EBD00171336 /* CategoryResView.swift */,
+				A161031224592331009747C7 /* CategoryResView.xib */,
+				A1DF542324583B0500171336 /* CategoryResCell */,
+			);
+			path = CategoryRes;
+			sourceTree = "<group>";
+		};
+		A1DF541E24583AA600171336 /* NationalRes */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543C24583EE500171336 /* NationalResView.swift */,
+				A161031424592342009747C7 /* NationalResView.xib */,
+				A1DF542224583AFB00171336 /* NationalResCell */,
+			);
+			path = NationalRes;
+			sourceTree = "<group>";
+		};
+		A1DF541F24583AD600171336 /* SuggestionResCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF542824583B8C00171336 /* SuggestionResCell.swift */,
+				A1DF542624583B7F00171336 /* SuggestionResCell.xib */,
+			);
+			path = SuggestionResCell;
+			sourceTree = "<group>";
+		};
+		A1DF542024583AE200171336 /* AdsResCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF542C24583E5900171336 /* AdsResCell.swift */,
+				A1DF542E24583E6B00171336 /* AdsResCell.xib */,
+			);
+			path = AdsResCell;
+			sourceTree = "<group>";
+		};
+		A1DF542124583AF100171336 /* NearyResCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543224583E8E00171336 /* NearyResCell.swift */,
+				A1DF543424583E9A00171336 /* NearyResCell.xib */,
+			);
+			path = NearyResCell;
+			sourceTree = "<group>";
+		};
+		A1DF542224583AFB00171336 /* NationalResCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543E24583EF600171336 /* NationalResCell.swift */,
+				A1DF544024583EFE00171336 /* NationalResCell.xib */,
+			);
+			path = NationalResCell;
+			sourceTree = "<group>";
+		};
+		A1DF542324583B0500171336 /* CategoryResCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF543824583ECF00171336 /* CategoryResCell.swift */,
+				A1DF543A24583ED800171336 /* CategoryResCell.xib */,
+			);
+			path = CategoryResCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +265,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A161030F2459230F009747C7 /* AdsResView.xib in Resources */,
+				A1DF543B24583ED800171336 /* CategoryResCell.xib in Resources */,
+				A1DF543524583E9A00171336 /* NearyResCell.xib in Resources */,
+				A1DF542F24583E6B00171336 /* AdsResCell.xib in Resources */,
+				A1DF542724583B7F00171336 /* SuggestionResCell.xib in Resources */,
+				A1DF544124583EFE00171336 /* NationalResCell.xib in Resources */,
+				A161031124592322009747C7 /* NearyResView.xib in Resources */,
+				A161031324592331009747C7 /* CategoryResView.xib in Resources */,
 				A1DF54112458392800171336 /* LaunchScreen.storyboard in Resources */,
+				A161031524592342009747C7 /* NationalResView.xib in Resources */,
 				A1DF540E2458392800171336 /* Assets.xcassets in Resources */,
 				A1DF540C2458392600171336 /* Main.storyboard in Resources */,
+				A161030D245922E7009747C7 /* SuggestionResView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DF543324583E8E00171336 /* NearyResCell.swift in Sources */,
+				A1DF543924583ECF00171336 /* CategoryResCell.swift in Sources */,
 				A1DF54092458392600171336 /* ViewController.swift in Sources */,
 				A1DF54052458392600171336 /* AppDelegate.swift in Sources */,
 				A1DF54072458392600171336 /* SceneDelegate.swift in Sources */,
+				A1DF543D24583EE500171336 /* NationalResView.swift in Sources */,
+				A1DF542524583B6900171336 /* SuggestionResView.swift in Sources */,
+				A1DF542B24583E4900171336 /* AdsResView.swift in Sources */,
+				A1DF542D24583E5900171336 /* AdsResCell.swift in Sources */,
+				A1DF542924583B8C00171336 /* SuggestionResCell.swift in Sources */,
+				A1DF543124583E8000171336 /* NearyResView.swift in Sources */,
+				A1DF543F24583EF600171336 /* NationalResCell.swift in Sources */,
+				A1DF543724583EBD00171336 /* CategoryResView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
