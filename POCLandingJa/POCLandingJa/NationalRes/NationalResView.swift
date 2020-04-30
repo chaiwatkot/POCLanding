@@ -16,7 +16,7 @@ final class NationalResView: UIView {
   
   override func layoutSubviews() {
     super.layoutSubviews()
-    collectionHeight.constant = collectionView.contentSize.height
+    collectionHeight.constant = collectionView.intrinsicContentSize.height
     collectionView.reloadData()
   }
   
